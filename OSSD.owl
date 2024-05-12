@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2"
+     xmlns:osd="http://ontocom.net/downs/OntologySD.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#isSynonymOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#isSynonymOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_drinking_water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_drinking_water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_goods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_goods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_learning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_learning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Citizen_engagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Citizen_engagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Culture_SD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Culture_SD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Economic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Economic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Engaged_governancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Engaged_governancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Global_SSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Global_SSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Housing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Housing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Informational -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Informational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Mathematical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Mathematical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#National_SSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#National_SSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_goal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_in_an_organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_in_an_organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_urban_form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_urban_form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development">
+        <untitled-ontology-5:isSynonymOf xml:lang="en">Social sustainability</untitled-ontology-5:isSynonymOf>
+        <untitled-ontology-5:isSynonymOf xml:lang="en">Social sustainable development</untitled-ontology-5:isSynonymOf>
+        <untitled-ontology-5:isSynonymOf xml:lang="en">Sustainability of the society</untitled-ontology-5:isSynonymOf>
+        <untitled-ontology-5:isSynonymOf xml:lang="en">Sustainable development of the society</untitled-ontology-5:isSynonymOf>
+        <rdfs:comment xml:lang="en">The ability of the community to develop the processes and structures necessary for its existence that support long-term relationships between nature and the economy.</rdfs:comment>
+        <rdfs:label xml:lang="en">SSD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
